@@ -1,0 +1,61 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+.eggs/
+build/
+dist/
+sdist/
+wheels/
+*.whl
+.installed.cfg
+MANIFEST
+
+# --- Virtual environments / tooling ---
+.venv/
+venv/
+env/
+ENV/
+.python-version
+.tox/
+.nox/
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+.ruff_cache/
+.hypothesis/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+pip-wheel-metadata/
+
+# --- Project runtime artifacts ---
+# calibration snapshots (fishbot.py --mode calibrate)
+calibration.png
+calibration.ppm
+frame.png
+frame.ppm
+*.ppm
+
+# generated config (fishbot.py --dump-config)
+fishbot.config.json
+*.config.json
+my.config.json
+
+# local logs
+*.log
+logs/
+
+# --- Editors / OS ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
